@@ -10,9 +10,10 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href={`/`}>Jsm headphones</Link>
+        <Link href={`/`}>
+          <img src='https://i.postimg.cc/jC0vJ27t/logo-removebg-preview.png' className='logoimage' alt="logo" />
+        </Link>
       </p>
-
       <button type='button' className='cart-icon' onClick={()=>setShowCart(true)}>
         <AiOutlineShopping />
         <span className='cart-item-qty'>{totalQuantities}</span>

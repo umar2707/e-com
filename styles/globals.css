@@ -67,7 +67,15 @@ width: 100%;
 .logo{
   color: gray;
   font-size: 18px;
-
+  cursor: pointer;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+}
+.socials p{
+  margin: 0 10px;
+  cursor: pointer;
 }
 .cart-icon{
   font-size: 25px;
@@ -625,8 +633,9 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
+    width: 45%;
+    height: 40%;
+    /* object-fit: cover; */
     top: -2%;
     right: -6%;
   }
@@ -762,4 +771,7 @@ margin-top: 160px;
   width: 300px;
   margin: auto;
 }
+}
+.logoimage{
+  width: 130px;
 }
