@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='navbar-container'>
       <p className='logo'>
         <Link href={`/`}>
-          <img src='https://i.postimg.cc/jC0vJ27t/logo-removebg-preview.png' className='logoimage' alt="logo" />
+          <img src='https://i.postimg.cc/kMN42vS1/photo-2022-06-19-21-39-16.jpg' className='logoimage' alt="logo" />
         </Link>
       </p>
       <button type='button' className='cart-icon' onClick={()=>setShowCart(true)}>
