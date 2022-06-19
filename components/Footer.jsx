@@ -6,26 +6,16 @@ import { BsTelegram } from 'react-icons/bs'
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <p>2022 Umar Rakhimberganov</p>
+      <p>2022 en_five</p>
       <div className="socials">
         <p >
-          <Link href={'https://www.instagram.com/umar_off27/'}>
+          <Link href={'https://www.instagram.com/en5_caps/'}>
             <AiFillInstagram size={30}/>
           </Link>
         </p>
         <p >
-          <Link href={'https://t.me/dev7707'}>
+          <Link href={'https://t.me/en5_caps/'}>
             <BsTelegram size={30}/>
-          </Link>
-        </p>
-        <p >
-          <Link href={'https://github.com/umar2707'}>
-            <AiFillGithub size={30}/>
-          </Link>
-        </p>
-        <p >
-          <Link href={'https://umarbek.netlify.app/'}>
-            <AiOutlineGlobal size={30}/>
           </Link>
         </p>
       </div>
